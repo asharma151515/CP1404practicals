@@ -5,9 +5,11 @@ def main():
     print("Password in asterisks:")
     print_password_stars(password)
 
+
 def get_password():
     password = input("Enter your password: ")
     return password
+
 
 def print_password_stars(password):
     print("*" * len(password))

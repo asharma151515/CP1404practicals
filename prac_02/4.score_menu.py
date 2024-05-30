@@ -23,6 +23,7 @@ def main_menu():
             print("Invalid input. Please try again.")
 
 def determine_result(score):
+    """Determine the result based on the score"""
     if score >= 0 and score <= 50:
         return "Fail"
     elif score > 50 and score <= 65:

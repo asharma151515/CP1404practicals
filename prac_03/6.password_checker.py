@@ -28,7 +28,15 @@ def main():
 
 
 def is_valid_password(password):
-    """Determine if the provided password is valid."""
+    """Determine if the provided password is valid.
+
+    Ary:
+    password (str): The password to validate.
+
+    Returns:
+        bool:True if the password is valid, False otherwise.
+
+    """
     if len(password) < MIN_LENGTH or len(password) > MAX_LENGTH:
         return False
 

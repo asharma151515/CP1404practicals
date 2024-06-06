@@ -8,9 +8,11 @@ INITIAL_PRICE = 10.00
 NUMBER_OF_DAYS = 425
 FILENAME = "stock_prices.txt"
 
+# Initialize the starting price
 price = INITIAL_PRICE
 out_file = open(FILENAME, 'w')
 
+# Write the starting price
 print(f"Starting price: ${price:,.2f}", file=out_file)
 
 for day in range(1, NUMBER_OF_DAYS + 1):

@@ -20,5 +20,3 @@ while not is_finished:
         is_finished = True  # Set is_finished to True to exit the loop when a valid integer is entered
 
 print("Valid result is:", result)
-
-

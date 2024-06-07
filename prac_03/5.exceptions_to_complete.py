@@ -1,9 +1,6 @@
 """
 CP1404/CP5632 - Practical
 Fill in the TODOs to complete the task
-"""
-
-"""
 1.The program will continuously prompt the user to enter a valid integer until a valid integer is provided.
 2.The ValueError exception is added to catch non-integer inputs, ensuring the program does not crash when a non-number is entered.
 3.The is_finished flag is set to True when a valid integer is entered, allowing the program to exit the loop.

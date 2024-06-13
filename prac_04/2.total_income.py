@@ -14,7 +14,6 @@ def main():
 def print_report(incomes):
     """
     This function prints the income report with cumulative totals.
-
     param incomes: A list of monthly incomes
     """
     print("\nIncome Report\n-------------")

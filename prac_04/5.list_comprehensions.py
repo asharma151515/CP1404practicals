@@ -32,3 +32,6 @@ print("Numbers greater than 9:", greater_than_9)
 long_full_names = [name.split()[1] for name in full_names if len(name) > 11]
 long_last_names_str = ', '.join(long_full_names)
 print("Last names longer than 11 characters:", long_last_names_str)
+
+
+

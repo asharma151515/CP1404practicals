@@ -1,5 +1,6 @@
 FILENAME = "subject_data.txt"
 
+
 def main():
     """
     This function reads the data from the file and displays subject details.
@@ -8,7 +9,7 @@ def main():
     display_subject_details(data)
 
 
-def load_data():
+def load_data():  # to read and process data from file
     """
     This function reads data from the file and processes it into a list of lists.
 

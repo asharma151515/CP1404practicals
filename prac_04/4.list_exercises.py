@@ -1,4 +1,5 @@
 def main():
+    # Collect numbers from the user and displays various statistics.
     numbers = []
     for i in range(5):
         number = int(input("Number: "))

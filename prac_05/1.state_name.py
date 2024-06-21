@@ -16,6 +16,7 @@ CODE_TO_NAME = {
 
 print(CODE_TO_NAME)
 
+"""Print the full name of the state given its code."""
 state_code = input("Enter short state: ")
 while state_code != "":
     if state_code.upper() in CODE_TO_NAME:

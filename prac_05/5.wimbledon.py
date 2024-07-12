@@ -4,6 +4,8 @@ CP1404/CP5632 Practical
 Processing Wimbledon gentlemen's singles champions data
 """
 
+
+
 # Read and process the Wimbledon champions data from the wimbledon.csv file
 with open('wimbledon.csv', 'r') as file:
     data = [line.strip().split(',') for line in file]

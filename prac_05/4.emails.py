@@ -3,6 +3,7 @@ CP1404/CP5632 Practical
 Storing users' emails and names in a dictionary
 """
 
+
 def extract_name(email):
     # Extract the name from the email address
     parts = email.split('@')[0].split('.')

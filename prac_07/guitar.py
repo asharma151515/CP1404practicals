@@ -7,9 +7,10 @@ def main():
 
 class Guitar:
     def __init__(self, name="", year=0, cost=0):
-        self.name = name
-        self.year = year
-        self.cost = cost
+        """Initialize a Guitar instance with name, year, and cost."""
+        self.name = name  # set the name of the guitar
+        self.year = year  # Set the year the guitar was made
+        self.cost = cost  # Cost of the guitar
 
     def __str__(self):
         return f"{self.name} ({self.year}) : ${self.cost:.2f}"
@@ -20,6 +21,7 @@ class Guitar:
     def is_vintage(self, current_year):
         """Check if the guitar is vintage based on the current year."""
         return current_year - self.year >= 50
+
 
 def load_guitars(filename):
     guitars = []
@@ -33,10 +35,10 @@ def load_guitars(filename):
             guitars.append(Guitar(name, year, cost))
     return guitars
 
+
 def display_guitars(guitars):
     for guitar in guitars:
         print(guitar)
-
 
 
 if __name__ == "__main__":

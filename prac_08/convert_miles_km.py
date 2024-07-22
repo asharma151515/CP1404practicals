@@ -6,7 +6,7 @@ class MilesToKmConverter(App):
     result = StringProperty('')
 
     def build(self):
-        self.title = "Miles to Kilometers Converter"
+        self.title = "Convert Miles to Kilometers "
         self.root = Builder.load_file('convert_miles_km.kv')
         return self.root
 

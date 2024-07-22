@@ -1,0 +1,22 @@
+BoxLayout:
+    orientation: 'vertical'
+
+    TextInput:
+        id: input_number
+        hint_text: 'Enter a number'
+        input_filter: 'float'  # Only allow float input
+
+    BoxLayout:
+        orientation: 'horizontal'
+
+        Button:
+            text: 'Calculate Square'
+            on_press: app.calculate_square()
+
+        Button:
+            text: 'Clear'
+            on_press: app.clear_input()
+
+    Label:
+        text: app.result  # Bind the label to the result property
+        font_size: 24

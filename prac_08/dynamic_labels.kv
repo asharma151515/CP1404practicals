@@ -1,10 +1,8 @@
 <MainLayout>:
     orientation: 'vertical'
-
-    Button:
-        text: 'Generate Labels'
-        on_press: app.create_labels()
+    padding: 10
+    spacing: 10
 
     BoxLayout:
-        id: labels_box
         orientation: 'vertical'
+        id: main  # This ID is used to add labels dynamically

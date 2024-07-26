@@ -1,22 +1,28 @@
 BoxLayout:
     orientation: 'vertical'
 
-    TextInput:
-        id: input_number
-        hint_text: 'Enter a number'
-        input_filter: 'float'  # Only allow float input
-
     BoxLayout:
         orientation: 'horizontal'
+        spacing: 10
+        padding: 10
+
+        TextInput:
+            id: input_number
+            hint_text: "Enter number"
+            input_filter: 'float'
+            multiline: False
 
         Button:
-            text: 'Calculate Square'
-            on_press: app.calculate_square()
+            text: "Square"
+            on_press: app.handle_calculate(input_number.text)
 
-        Button:
-            text: 'Clear'
-            on_press: app.clear_input()
+        Label:
+            id: output_label
+            text: "Result"
+            color: (1, 0.5, 0.5, 1)  # RGBA for pink
 
     Label:
-        text: app.result  # Bind the label to the result property
-        font_size: 24
+        text: "Enter a number and press 'Square'"
+        size_hint_y: None
+        height: '30dp'
+        padding: [10, 10]

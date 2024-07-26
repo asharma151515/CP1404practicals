@@ -1,5 +1,5 @@
 # Practical 08
-Here are some key points you might have learned through the lesson on creating a Kivy application for converting miles to kilometers, 
+Here are some key points which I learned through the lesson on creating a Kivy application for converting miles to kilometers, 
 along with what I implemented in my code:
 
 ### My Key Learnings:

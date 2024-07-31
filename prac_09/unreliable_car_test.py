@@ -6,6 +6,8 @@ Unreliable Car Test
 
 from unreliable_car import UnreliableCar
 
-car = UnreliableCar("prius", 100, 10)
-car.drive(110)
-print(car)
+my_unreliable_car = UnreliableCar("prius", 100, 10)
+distance_drive = my_unreliable_car.drive(50)
+print(f"Distance driven: {distance_drive} km")
+print(my_unreliable_car)
+
